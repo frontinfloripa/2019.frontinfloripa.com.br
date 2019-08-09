@@ -1,7 +1,7 @@
 event:
   name: Front in Floripa 2019
   description: Maior evento front-end de Santa Catarina
-  url: "http://www.frontinfloripa.com.br"
+  url: "https://frontin.floripa.br"
 
 tickets:
   url: "https://www.sympla.com.br/front-in-floripa-2018__366076"
