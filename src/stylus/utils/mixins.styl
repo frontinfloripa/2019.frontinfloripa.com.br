@@ -1,0 +1,30 @@
+bg($file)
+  background-image url($path-img + $file)
+  background-position center
+  background-repeat no-repeat
+
+center()
+  display flex
+  align-items center
+  justify-content center
+
+shadow-button($size)
+  box-shadow $size $size 0 #000, ($size + 2) ($size + 2) 0 #fff
+
+wrapper()
+  max-width $wrapper-size
+  padding 0 2em
+  margin 0 auto
+
+list-reset()
+  padding 0
+  margin 0
+  list-style none
+
+text-gradient()
+  display inline-block
+  background-clip text
+  -webkit-background-clip text
+  background-size cover
+  text-fill-color transparent
+  -webkit-text-fill-color transparent
