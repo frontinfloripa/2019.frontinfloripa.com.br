@@ -448,12 +448,12 @@ p {
   content: '';
   width: 100%;
   height: 500px;
-  background-image: url("../img/header-bridge.svg");
+  background-image: url("../img/header-bridge-tiny.png");
   background-position: center;
   background-repeat: no-repeat;
   background-position: center bottom;
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   left: 0;
   background-size: 100% auto;
 }
@@ -461,8 +461,8 @@ p {
   .header:before {
     bottom: -30px;
     background-size: 800px auto;
-    background-position: -webkit-calc(100% + 150px);
-    background-position: calc(100% + 150px) bottom;
+    background-position: -webkit-calc(100% + 130px);
+    background-position: calc(100% + 130px) bottom;
   }
 }
 .header:after {
@@ -473,13 +473,13 @@ p {
   position: absolute;
   bottom: -240px;
   left: 0;
-  -webkit-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3.5deg);
+  -ms-transform: rotate(-3.5deg);
+  transform: rotate(-3.5deg);
 }
 @media only screen and (max-width: 580px) {
   .header:after {
-    bottom: -290px;
+    bottom: -280px;
   }
 }
 .header-edition {
