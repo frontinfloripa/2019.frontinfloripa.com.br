@@ -271,8 +271,10 @@ p {
   -webkit-transition: box-shadow 0.1s ease;
   transition: box-shadow 0.1s ease;
 }
-.button:hover {
-  box-shadow: 5px 5px 0 #000, 7px 7px 0 #fff;
+@media only screen and (min-width: 580px) {
+  .button:hover {
+    box-shadow: 5px 5px 0 #000, 7px 7px 0 #fff;
+  }
 }
 .coc {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

@@ -16,5 +16,6 @@
   shadow-button(3px)
   transition box-shadow .1s ease
 
-  &:hover
-    shadow-button(5px)
+  +above($phone)
+    &:hover
+      shadow-button(5px)
