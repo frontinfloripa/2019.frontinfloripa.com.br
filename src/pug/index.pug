@@ -57,6 +57,120 @@ html
             .header-actions
               a.button(href=`${config.tickets.url}` target='_blank') Comprar Ingresso
 
+    section.features
+      .features-wrapper
+        .features-column
+          h2.features-title Somos diferentes!
+          p.features-description Sabe aquele evento que a gente vai e no outro dia pensa: "Valeu a pena. Ano que vem eu volto". Trabalhamos para que isso aconteça com todos os participantes do Front in Floripa. Além disso, nos orgulhamos de ter a #[strong melhor experiência de Floripa!]
+          p.features-description Apostamos em pessoas, simples assim. Pode parecer clichê, mas levamos isso muito a sério. Ao longo desses #[strong 7 anos] de evento sempre trouxemos os melhores nomes do front-end brasileiro... sempre com os temas mais atuais. Além dessas talks, acreditamos na interação das pessoas dentro e fora do auditório.
+          p.features-description Piscina de bolinha, fliperama, PS4, espaço para descansar, lounge com café o evento todo... além das brincadeiras de palco como imagem & ação, tiro ao alvo, torta na cara... essas são algumas das experiências que já tiveram e terão no Front in Floripa.
+          p.features-description =]
+        .features-column
+          ul.features-images
+            li
+              img(src='assets/img/event-02.jpg')
+            li
+              img(src='assets/img/event-04.jpg')
+            li
+              img(src='assets/img/event-01.jpg')
+            li
+              img(src='assets/img/event-03.jpg')
+
+    section.speakers
+      .speakers-wrapper
+        h2.speakers-title Speakers
+        ul.speakers-list
+          each speaker in speakers
+            li(class=`speaker-item speaker-item--${speaker.type}`)
+              .speaker-item-column__image
+                .speaker-item__avatar
+                  if speaker.avatar
+                    img(src=`assets/img/speakers/${speaker.avatar}`)
+                  else
+                    span.speaker-item__avatar-off ?
+              .speaker-item-column__content
+                .speaker-item-column__content-wrapper
+                  if speaker.name
+                    h3.speaker-item__title= speaker.name
+                  else
+                    h3.speaker-item__title Em breve
+                  if speaker.talk
+                    p.speaker-item__talk= speaker.talk
+                  else
+                    p.speaker-item__talk [Em breve]
+                  .speaker-item__social
+                    if speaker.github
+                      a.speaker-item__social-link.gh(href=`https://github.com/${speaker.github}` target='_blank') Github
+                    if speaker.twitter
+                      a.speaker-item__social-link.tw(href=`https://twitter.com/${speaker.twitter}` target='_blank') Twitter
+
+    section.location
+      .location-wrapper
+        .location-content
+          .location-content-inner
+            span.location-title &mdash; Location
+            h2.location-venue Hotel Maria do Mar
+            address.location-address Rodovia João Paulo, 2285 #[br] Bairro João Paulo #[br] Florianópolis - SC - Brasil
+            a.button.location-button(href='https://goo.gl/maps/ty539BmfZM82' target='_blank') Como chegar
+        .location-picture
+
+    section.schedule
+      .schedule-wrapper
+        h2.schedule-title Programação
+        ul.schedule-list
+          each event in schedule
+            li(class=`schedule-item schedule-item__${event.type}`)
+              .schedule-column__time
+                span.schedule-item__time= event.time
+              .schedule-column__content
+                h3.schedule-item__title= event.title
+                if event.talk
+                  p.schedule-item__description= event.talk
+                if event.show
+                  p.schedule-item__description
+                    a.schedule-item__link(href='https://goo.gl/maps/TGtEzM4u2qq' target='_blank')
+                      span Como chegar no Chopp do Gus
+
+    section.tickets
+      .tickets-wrapper
+        .tickets-content
+          h2.tickets-title Tickets
+          ul.tickets-list
+            each ticket in tickets
+              li(class=`ticket-item ticket-item--${ticket.open}`)
+                h3.ticket-item__title= ticket.title
+                p.ticket-item__description= ticket.description
+                p.ticket-item__price= `R$ ${ticket.value}`
+                .ticket-item__button
+                  a.button(href=`${config.tickets.url}` target='_blank') Comprar
+
+    section.support
+      .support-wrapper
+        .support-content
+          h2.support-title Patrocínio
+          ul.support-list.support-list--patrocinio
+            each item in sponsors
+              li.support-item
+                a.support-link(href=`${item.website}` target='_blank')
+                  img(src=`assets/img/sponsors/${item.logo}`)
+          h2.support-title.support-title--apoio Apoio
+          ul.support-list.support-list--apoio
+            each item in support
+              li.support-item
+                a.support-link(href=`${item.website}` target='_blank')
+                  img(src=`assets/img/support/${item.logo}`)
+
+    footer.footer
+      .footer-wrapper
+        .footer-column.footer-column--coc
+          a.footer-link(href='#coc' id='show-coc') Código de Conduta
+        .footer-column.footer-column--email
+          span.footer-text contato@frontinfloripa.com.br
+        .footer-column.footer-column--social
+          a.footer-link(href='https://github.com/frontinfloripa' target='_blank') Github
+          a.footer-link(href='https://twitter.com/frontinfloripa' target='_blank') Twitter
+          a.footer-link(href='https://fb.com/frontinfloripa' target='_blank') Facebook
+
     #coc.coc
       span#close-coc.coc-close &times;
       .coc-content

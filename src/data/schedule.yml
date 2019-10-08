@@ -5,26 +5,26 @@
 -
   time: '09:00'
   type: other
-  title: "Abertura do Evento"
+  title: "Welcome Coffee"
 -
-  time: '00:00'
-  type: talk
-  title: "Larissa Abreu"
-  talk: "Guia prático para criação de componentes perfeitos"
--
-  time: '10:00'
+  time: '09:40'
   type: other
-  title: "Coffee Break"
+  title: "Abertura do evento"
 -
   time: '00:00'
   type: talk
-  title: "Igor Halfeld"
-  talk: "GraphQL... O que o Front-end tem a ver com isso?"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '00:00'
   type: talk
-  title: "Rodrigo Branas"
-  talk: "Micro Frontends"
+  title: "A confirmar"
+  talk: "A confirmar"
+-
+  time: '00:00'
+  type: talk
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '12:00'
   type: other
@@ -36,37 +36,37 @@
 -
   time: '00:00'
   type: talk
-  title: "Pedro Nauck"
-  talk: "Docz: como ganhei 5k stars em 2 semanas!"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '00:00'
   type: talk
-  title: "Rafael Dantas"
-  talk: "Leve seu CSS para o futuro com Houdini"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '00:00'
   type: talk
-  title: "Wharley Ornelas"
-  talk: "A saga de um DEV - Tudo é possível"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '16:00'
   type: other
   title: "Coffee Break"
 -
-  time: '08:00'
+  time: '00:00'
   type: talk
-  title: "Felipe Fialho"
-  talk: "Palestra Surpresa"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
-  time: '08:00'
+  time: '00:00'
   type: talk
-  title: "Giulia Cardieri"
-  talk: "O que eu posso aprender com desenhos e jogos em CSS?"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
-  time: '08:00'
+  time: '00:00'
   type: talk
-  title: "Roberto Gripa"
-  talk: "Criando uma extensão Chrome com React"
+  title: "A confirmar"
+  talk: "A confirmar"
 -
   time: '18:15'
   type: other
@@ -74,6 +74,5 @@
 -
   time: '21:30'
   type: other
-  show: true
-  title: "Festa no Chopp do Gus"
-  talk: "Show com Kike Oliveira & Banda. Graças a nossa parceria com a casa de 6 anos, na apresentação do crachá do evento na entrada você NÃO paga nem entrada e nem couvert... e ainda paga menos no Chopp =] Você pode entrar no local a partir de qualquer horário. A banda começa às 23h."
+  title: "Happy Hour 🍻"
+  talk: "Local a confirmar"

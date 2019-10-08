@@ -11,30 +11,6 @@
   website: "http://www.nic.br"
   logo: "nicbr.png"
 -
-  name: "Alura"
-  website: "https://www.alura.com.br"
-  logo: "alura.png"
--
-  name: "Caelum"
-  website: "https://www.caelum.com.br"
-  logo: "caelum.png"
--
-  name: "Casa do Código"
-  website: "https://www.casadocodigo.com.br"
-  logo: "casa-do-codigo.png"
--
-  name: "MyTapp"
-  website: "https://mytapp.com.br"
-  logo: "mytapp.png"
--
-  name: "Brainn.co"
-  website: "https://brainn.co"
-  logo: "brainn.png"
--
-  name: "Cubo"
-  website: "https://cubo.network"
-  logo: "cubo.png"
--
   name: "BrazilJS"
   website: "https://braziljs.org"
   logo: "braziljs.png"
@@ -43,10 +19,6 @@
   website: "https://www.stickersdevs.com.br"
   logo: "stickerdevs.png"
 -
-  name: "FloripaJS"
-  website: "http://floripajs.org"
-  logo: "floripajs.png"
--
   name: "Maria do Mar"
   website: "http://mariadomar.com.br"
   logo: "mariadomar.png"
@@ -54,3 +26,7 @@
   name: "Sympla"
   website: "https://www.sympla.com.br"
   logo: "sympla.png"
+-
+  name: "FloripaJS"
+  website: "http://floripajs.org"
+  logo: "floripajs.png"

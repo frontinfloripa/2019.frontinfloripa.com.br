@@ -3,12 +3,14 @@ const closeCOC = document.getElementById('close-coc')
 const COC = document.getElementById('coc')
 
 if (showCOC) {
-  showCOC.addEventListener('click', () => {
+  showCOC.addEventListener('click', e => {
+    e.preventDefault()
     COC.classList.add('show')
   })
 }
 
-closeCOC.addEventListener('click', () => {
+closeCOC.addEventListener('click', e => {
+  e.preventDefault()
   COC.classList.add('hide')
 
   setTimeout(() => {
