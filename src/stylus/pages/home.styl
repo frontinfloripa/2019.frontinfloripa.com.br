@@ -730,7 +730,13 @@
       padding-top 3em
 
       .support-item
-        margin 4em 4em 4em .5em
+        margin 4em 7em 4em .5em
+
+        +below('phone')
+          margin-right 2em
+
+          &:last-child
+            margin-right 0
 
       .support-link
         img
