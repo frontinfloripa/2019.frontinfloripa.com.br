@@ -1,12 +1,20 @@
 -
+  name: "Toptal"
+  website: "https://toptal.com"
+  logo: "toptal.png"
+-
   name: "Linx Impulse"
   website: "http://www.linx.com.br/linximpulse/"
   logo: "linximpulse.png"
+-
+  name: "BRQ"
+  website: "http://www.brq.com"
+  logo: "brq.png"
 -
   name: "GeekHunter"
   website: "https://www.geekhunter.com.br"
   logo: "geekhunter.png"
 -
-  name: "BRQ"
-  website: "http://www.brq.com"
-  logo: "brq.png"
+  name: "14islands"
+  website: "https://14islands.com"
+  logo: "14islands.png"
