@@ -1,4 +1,8 @@
 -
+  name: "Neoway"
+  website: "https://www.neoway.com.br"
+  logo: "neoway.png"
+-
   name: "Toptal"
   website: "https://toptal.com"
   logo: "toptal.png"
@@ -15,10 +19,14 @@
   website: "https://cheesecakelabs.com"
   logo: "ckl.png"
 -
+  name: "BRQ"
+  website: "http://www.brq.com"
+  logo: "brq.png"
+-
   name: "14islands"
   website: "https://14islands.com"
   logo: "14islands.png"
 -
-  name: "BRQ"
-  website: "http://www.brq.com"
-  logo: "brq.png"
+  name: "Dextra"
+  website: "https://dextra.com.br"
+  logo: "dextra.png"
