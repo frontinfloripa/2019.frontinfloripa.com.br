@@ -514,7 +514,7 @@ p {
   }
 }
 .header-top {
-  padding-top: 3em;
+  padding-top: 5em;
   padding-right: 2em;
 }
 @media only screen and (max-width: 580px) {
@@ -1442,12 +1442,12 @@ p {
 .support-list.support-list--patrocinio .support-item {
   margin: 4em 9em 4em 0.5em;
 }
+.support-list.support-list--patrocinio .support-item:last-child {
+  margin-right: 0;
+}
 @media only screen and (max-width: 580px) {
   .support-list.support-list--patrocinio .support-item {
-    margin-right: 2em;
-  }
-  .support-list.support-list--patrocinio .support-item:last-child {
-    margin-right: 0;
+    margin-right: 5em;
   }
 }
 .support-list.support-list--patrocinio .support-link img {

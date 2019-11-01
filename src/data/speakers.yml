@@ -3,7 +3,7 @@
   avatar: "afonso.jpg"
   github: "afonsopacifer"
   twitter: "afonsopacifer"
-  talk: ""
+  talk: "No pain no gain: A verdade sobre a evolução técnica"
   type: "talk"
 -
   name: "Vitor Mendrone"
@@ -17,7 +17,7 @@
   avatar: "carla.jpg"
   github: "carlaprv"
   twitter: "carlaprvieira"
-  talk: "Machine Learning com Javascript utilizando TensorFlow.js"
+  talk: "Machine Learning com JavaScript utilizando TensorFlow.js"
   type: "talk"
 -
   name: "Milson Júnior"
@@ -34,6 +34,13 @@
   talk: "Aplicações modernas sem Virtual DOM com Svelte"
   type: "talk"
 -
+  name: ""
+  avatar: ""
+  github: ""
+  twitter: ""
+  talk: ""
+  type: "talk"
+-
   name: "Rubens de Melo"
   avatar: "rubens.jpg"
   github: "rubensdemelo"
@@ -41,25 +48,18 @@
   talk: "Flutter para iniciantes"
   type: "talk"
 -
+  name: "Mario Souto"
+  avatar: "mario.jpg"
+  github: "omariosouto"
+  twitter: "omariosouto"
+  talk: "Testes para Front-end, faz sentido?"
+  type: "talk"
+-
   name: "Eduardo Sotero"
   avatar: "eduardo.jpg"
   github: "dudusotero"
   twitter: ""
   talk: "Criando experiências 360 e VR com React 360"
-  type: "talk"
--
-  name: ""
-  avatar: ""
-  github: ""
-  twitter: ""
-  talk: ""
-  type: "talk"
--
-  name: ""
-  avatar: ""
-  github: ""
-  twitter: ""
-  talk: ""
   type: "talk"
 -
   name: "Rodrigo Branas"

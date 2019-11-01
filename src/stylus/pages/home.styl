@@ -58,7 +58,7 @@
       top 35px
 
   &-top
-    padding-top 3em
+    padding-top 5em
     padding-right 2em
 
     +below('phone')
@@ -732,11 +732,11 @@
       .support-item
         margin 4em 9em 4em .5em
 
-        +below('phone')
-          margin-right 2em
+        &:last-child
+          margin-right 0
 
-          &:last-child
-            margin-right 0
+        +below('phone')
+          margin-right 5em
 
       .support-link
         img

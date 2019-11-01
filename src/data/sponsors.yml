@@ -7,14 +7,18 @@
   website: "http://www.linx.com.br/linximpulse/"
   logo: "linximpulse.png"
 -
-  name: "BRQ"
-  website: "http://www.brq.com"
-  logo: "brq.png"
--
   name: "GeekHunter"
   website: "https://www.geekhunter.com.br"
   logo: "geekhunter.png"
 -
+  name: "Cheesecake Labs"
+  website: "https://cheesecakelabs.com"
+  logo: "ckl.png"
+-
   name: "14islands"
   website: "https://14islands.com"
   logo: "14islands.png"
+-
+  name: "BRQ"
+  website: "http://www.brq.com"
+  logo: "brq.png"
