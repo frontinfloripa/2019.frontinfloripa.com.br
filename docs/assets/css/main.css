@@ -910,7 +910,7 @@ p {
   position: relative;
 }
 .speaker-item__avatar {
-  height: 190px;
+  height: 220px;
   background: #ddd;
   display: -webkit-box;
   display: -webkit-flex;
