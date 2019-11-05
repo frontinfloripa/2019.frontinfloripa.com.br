@@ -148,13 +148,13 @@ html
             each item in sponsors
               li.support-item
                 a.support-link(href=`${item.website}` target='_blank')
-                  img.support-logo(src=`assets/img/sponsors/${item.logo}`)
+                  img.support-logo(src=`assets/img/sponsors/${item.logo}` alt=`${item.name}`)
           h2.support-title.support-title--apoio Apoio
           ul.support-list.support-list--apoio
             each item in support
               li.support-item
                 a.support-link(href=`${item.website}` target='_blank')
-                  img.support-logo(src=`assets/img/support/${item.logo}`)
+                  img.support-logo(src=`assets/img/support/${item.logo}` alt=`${item.name}`)
 
     footer.footer
       .footer-wrapper
