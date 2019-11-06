@@ -42,3 +42,7 @@
   name: "FloripaJS"
   website: "http://floripajs.org"
   logo: "floripajs.png"
+-
+  name: "Facebook Developer Circles"
+  website: "https://developers.facebook.com/developercircles"
+  logo: "facebook.png"
