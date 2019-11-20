@@ -13,18 +13,18 @@
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Carla Vieira"
+  talk: "Machine Learning com JavaScript utilizando TensorFlow.js"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Mario Souto"
+  talk: "Testes para Front-end, faz sentido?"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Vitor Mendrone"
+  talk: "A arte da composição: uma jornada para aplicações melhores através de efeitos, tipos e categorias"
 -
   time: '12:00'
   type: other
@@ -36,18 +36,18 @@
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Rubens de Melo"
+  talk: "Flutter para iniciantes"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Matheus Castiglioni"
+  talk: "Aplicações modernas sem Virtual DOM com Svelte"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Milson Júnior"
+  talk: "JamStack na prática - Os desafios por trás do hype"
 -
   time: '16:00'
   type: other
@@ -55,18 +55,18 @@
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Afonso Pacifer"
+  talk: "No pain no gain: A verdade sobre a evolução técnica"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Kete Rufino & Guilherme Santos"
+  talk: "CMS WannaBe: Utilizando a API do Google Docs pra editar conteúdos do website"
 -
   time: '00:00'
   type: talk
-  title: "A confirmar"
-  talk: "A confirmar"
+  title: "Eduardo Sotero"
+  talk: "Criando experiências 360 e VR com React 360"
 -
   time: '18:20'
   type: other
