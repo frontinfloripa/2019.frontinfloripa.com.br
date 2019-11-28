@@ -276,6 +276,10 @@ p {
     box-shadow: 5px 5px 0 #000, 7px 7px 0 #fff;
   }
 }
+.button.off {
+  background: #bbb !important;
+  pointer-events: none;
+}
 .coc {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
