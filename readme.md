@@ -1,6 +1,6 @@
 # Front in Floripa 2019
 
-> frontin.floripa.br
+> 2019.frontinfloripa.com.br
 
 # Como rodar o projeto
 
